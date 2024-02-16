@@ -1,0 +1,29 @@
+.background-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/6.png');
+  background-size: cover;
+  display: flex; /* Use flexbox to align items */
+  justify-content: flex-end; /* Adjust spacing between items */
+  align-items: center; /* Center items vertically */
+  padding-right: 200px;
+
+}
+
+
+.background-image a {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: -300px;
+  margin-left: 20px; 
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+
+.background-image a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: aqua;
+}

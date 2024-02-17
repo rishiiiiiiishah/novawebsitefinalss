@@ -1,8 +1,8 @@
 import React from 'react';
-import { data } from "../data";
+import { data } from "./data";
 import { Acordion } from "./Acordion";
 
-const Main = () => {
+const FAQS = () => {
   return (
     <div className='faqs'>
       <div>
@@ -16,4 +16,4 @@ const Main = () => {
   );
 };
 
-export default Main; // Exporting Main as default
+export default FAQS; // Exporting Main as default
